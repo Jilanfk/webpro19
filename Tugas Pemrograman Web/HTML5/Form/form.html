@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Form Pendaftaran</h2>
+<fieldset>
+<legend>Isi Lah Form Berikut</legend>
+<form>
+    <br><label for="fname">Nama Depan:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+    <br><label for="lname">Nama Belakang:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br>
+</form>
+
+</form>
+<br><label for="email">Email:</label<br><br>
+    <input type="text" id="email" name="email" value=""><br><br>
+    <label for="pass">Password:</label<br><br>
+    <input type="text" id="pass" name="pass" value=""><br><br>
+    <label for="email">Tulis Ulang Password:</label<br><br>
+    <input type="text" id="pass" name="pass" value=""><br><br>
+</form>
+
+<form>
+    <label for="no_hp">Nomor HP:</label><br>
+        <input type="number" id="no_hp" name="no_hp" value=""><br>
+</form>
+
+<div>
+ <br>
+    <label>Jenis Kelamin</label><br>
+        <input type="radio" name="jk" value="L" />LAKI-LAKI<br>
+        <input type="radio" name="jk" value="P" />PEREMPUAN
+		</label>
+</div>
+
+<tr>
+    <br>
+        <td valign="top">Tanggal Lahir</td><br>
+            <td>
+            <input type="text" style="width: 25px" placeholder="dd">
+            <input type="text" style="width: 25px" placeholder="mm">
+            <input type="text" style="width: 50px" placeholder="yyyy">
+            </td>    
+	</br>
+</tr>
+
+<p>Tinggi Anda</p>
+
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+<input type="range" id="a" value="300">
+<+<input type="number" id="b" value="100">
+<=<output name="x" for="a b"></output>
+</form>
+
+</tr>
+<div>
+	<label>Alamat</label>
+	<div>
+		<textarea name="alamat_kirim:" rows="4" cols="30"></textarea>
+	</div>
+</div>
+	<div>
+		<label>Kota
+		<div>
+			<select name="Kota">
+				<optgroup> value=""></optgroup>
+				<option value="">Pilih Sesuai Kota Anda</option>
+				<option value="Jakarta">Jakarta</option>
+				<option value="Surabaya">Bogor</option>
+                <option value="Depok">Depok</option>
+                <option value="Tanggerang">Tanggerang</option>
+                <option value="Bekasi">Bekasi</option>
+                <option value="Kota Lain">Kota Lain</option>
+			</select>
+		</div>			
+	</div>
+	
+<b><p>Memilih Jam Untuk Awal Pendaftaran</p></b>
+    <label for="Memilih Jam">Memilih Jam</label>
+    <select name="Jam" id="Jam Awal Masuk Pendaftaran">
+        <optgroup label="Masuk Pagi">
+        <option value="Jam 8:00">Jam 8:00</option>
+        </optgroup>
+        <optgroup label="Masuk Siang">
+        <option value="Jam 13:00">Jam 13:30</option>
+        </optgroup>
+    </select>
+  <br><br>
+</form>	
+	
+<p>Jika Sudah Di Isi Semua Pencet Tombol Berikut Untuk Login</p>
+	<form method="post" action="login user.html">
+       <button type="submit">Submit</button>
+	</form>
+</fieldset>
+</body>
+</html>
