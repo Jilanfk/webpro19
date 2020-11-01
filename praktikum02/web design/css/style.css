@@ -1,0 +1,56 @@
+body {background-color: aquamarine;}
+hr {border: 0px transparent;}
+
+table, th, td {
+    border: 1px solid black;
+    background-color: beige;
+    text-align: center;
+}
+
+
+a {text-decoration: none;}
+
+h1#judul{
+    color: goldenrod;  
+    position: absolute;
+    left: 1%;
+}
+
+.center {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.right_block {
+    background-color: beige;
+    text-align: left;
+    position: fixed;
+    right: 0px;
+    width: 300px;
+    border: 3px solid;
+    padding: 10px;
+    outline: auto black;
+}
+
+.lapak {display: block;
+    width: 5cm;
+    float: left;
+    outline: auto black;
+    margin: 2px;
+    padding-left: 10px;
+    background-color: beige;
+    border-style: double;
+}
+
+.item {display: block;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+#footer {clear: both;}
+
+.offset {position: relative;
+    margin-left: 66%;}
